@@ -1,9 +1,9 @@
-// but : . Le programme vÈrifie qu'il y a bien
-//			5 chiffres dans le nombre.Puis il affiche le nombre verticalement, le premier chiffre sur la premiËre ligne, le
-//			deuxiËme chiffre sur la deuxiËme ligne, ainsi de suite
+// but : . Le programme v√©rifie qu'il y a bien
+//			5 chiffres dans le nombre.Puis il affiche le nombre verticalement, le premier chiffre sur la premi√®re ligne, le
+//			deuxi√®me chiffre sur la deuxi√®me ligne, ainsi de suite
 
 // nom : Jacob Julien
-// Date : = pair impair
+// Date : = pair impair // KM : ?????
 
 #include <iostream>
 
@@ -12,13 +12,17 @@ int main()
 	setlocale(LC_ALL, "");
 
 	int nombre1;
+	// KM : Pourquoi un deuxi√®me nombre ???
 	int nombre2;
 
-	std::cout << " Veuillez entrer un nombre ‡ 5 chiffres : ";
+	std::cout << " Veuillez entrer un nombre √† 5 chiffres : ";
 	std::cin >> nombre1;
 
+	// KM : √† commenter 
+	// KM : Nous n'avions pas encore vu le &&. Il fait quoi dans la vie ??
 	if (nombre1 <= 99999 && nombre1 >= 10000)
 	{
+		// KM : Super de laisser le code en commentaire, je peux voir la trace de tes r√©flexions et tu √©tais sur la piste
 		/*std::cout << nombre1 / 10000 << std::endl;
 		std::cout << nombre1 / 1000 << std::endl;
 		std::cout << nombre1 / 100 << std::endl;
@@ -39,3 +43,5 @@ int main()
 
 	
 }
+
+// KM : Manque plan de tests
